@@ -33,6 +33,21 @@
   display: flex;
 }
 
+.header__title {
+  max-width: 709px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  margin-top: 183px;
+  margin-left: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .nav__logo {
   margin-left: 30px;
   height: 39px;
@@ -53,21 +68,6 @@
   display: flex;
   margin-right: 80px;
   margin-top: 30px;
-}
-
-.header__title {
-  max-width: 709px;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 58px;
-  line-height: 72px;
-  letter-spacing: 1px;
-  margin-top: 183px;
-  margin-left: 80px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 .header__span-accent {
