@@ -58,16 +58,20 @@
 .nav__link {
   list-style: none;
   margin: auto;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   column-gap: 20px;
   padding: 0;
   display: flex;
   margin-right: 80px;
   margin-top: 30px;
+}
+
+.nav__links {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header__span-accent {
