@@ -214,8 +214,8 @@
   line-height: 52px;
   display: flex;
   justify-content: center;
-  margin: auto;
   padding-top: 100px;
+  margin: 100px auto 80px;
 }
 .form {
   margin-top: 80px;
