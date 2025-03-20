@@ -214,10 +214,11 @@
   line-height: 52px;
   display: flex;
   justify-content: center;
+  margin: auto;
   padding-top: 100px;
-  margin-bottom: 0;
 }
 .form {
+  margin-top: 80px;
   display: flex;
   justify-content: center;
 }

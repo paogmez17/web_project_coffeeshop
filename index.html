@@ -127,7 +127,7 @@
         <section class="reservation" id="reservation">
           <h1 class="reservation__title">Reservar una mesa</h1>
           <div class="form">
-            <form class="reservation__form">
+            <form class="form reservation__form">
               <fieldset class="form__fieldset">
                 <label for="nombre" class="form__label">Nombre *</label>
                 <br />
@@ -135,6 +135,7 @@
                   type="text"
                   placeholder="Nombre"
                   class="form__input"
+                  id="nombre"
                   required
                 />
                 <br />
@@ -146,6 +147,7 @@
                   type="number"
                   placeholder="1-8"
                   class="form__input"
+                  id="Numeros-de-comensales"
                   required
                 />
                 <br />
@@ -153,7 +155,12 @@
                   >Fecha y hora *</label
                 >
                 <br />
-                <input type="datetime-local" class="form__input" required />
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  id="fecha-y-hora"
+                  required
+                />
                 <br />
                 <label for="correo" class="form__label"
                   >Tu correo electrónico *
@@ -163,6 +170,7 @@
                   type="email"
                   placeholder="email@email.com"
                   class="form__input"
+                  id="correo"
                   required
                 />
                 <br />
@@ -171,7 +179,12 @@
                 </button>
                 <br />
                 <label for="checkbox" class="form__label form__label_checkbox">
-                  <input type="checkbox" class="form__checkbox" required />
+                  <input
+                    type="checkbox"
+                    class="form__checkbox"
+                    id="checkbox"
+                    required
+                  />
                   Acepto los términos de uso
                 </label>
               </fieldset>
