@@ -1,0 +1,14 @@
+.social-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.social-icon {
+  padding-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.social-icon :hover {
+  color: #c1c1c1;
+}

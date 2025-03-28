@@ -7,7 +7,7 @@
     <meta name="description" content="cosas de cafeteria" />
     <meta name="author" content="Paola Gomez" />
     <meta name="keywords" content="pagina de cafeteria" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +23,7 @@
       <header class="header">
         <nav class="nav">
           <img
-            src="/images/logo_coffeeshop_dark.svg"
+            src="./images/logo_coffeeshop_dark.svg"
             class="nav__logo"
             alt="logotipo coffeeshop"
           />
@@ -127,7 +127,7 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
           <div class="form">
-            <form class="form reservation__form">
+            <form class="form reservation_form">
               <fieldset class="form__fieldset">
                 <label for="nombre" class="form__label">Nombre *</label>
                 <br />
@@ -193,7 +193,40 @@
         </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            src="images/logo_coffeeshop_light.svg"
+            class="footer__logo"
+            alt="logo coffeeshop"
+          />
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Redes sociales</h2>
+            <ul class="list">
+              <li class="list-item">
+                <a href="#" class="social-link"
+                  ><img
+                    class="social-icon"
+                    src="images/facebook_white.svg"
+                    alt="icono de facebook"
+                  />Facebook</a
+                >
+              </li>
+              <li class="list-item">
+                <a href="#" class="social-link"
+                  ><img
+                    class="social-icon"
+                    src="images/instagram_white.svg"
+                    alt="icono instagram"
+                  />Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2025 Paola Gomez</p>
+      </footer>
     </div>
   </body>
 </html>
