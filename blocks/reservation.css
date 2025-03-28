@@ -6,6 +6,13 @@
   background-size: cover;
 }
 
+.reservation__form {
+  margin-top: 0;
+  margin-bottom: 120px;
+  max-width: 385px;
+  padding: 0;
+}
+
 .reservation__title {
   font-family: Inter;
   font-style: normal;

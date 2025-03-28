@@ -46,7 +46,22 @@
   padding-bottom: 20px;
 }
 
-.footer__copyright {
+.footer__social-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer__social-link :hover {
+  color: #c1c1c1 !important;
+}
+
+.footer__social-icon {
+  padding-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer .footer__copyright {
   color: #ffffff;
   font-family: "Inter";
   font-style: normal;
